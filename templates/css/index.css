@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html, body {padding:0; margin:0;}
+
+li, ul, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 65px;
+    margin-left: 65px; margin-right: 65px;
+}
+
+.left {
+
+}
+
+ul.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+li.nav-items {
+    margin-right: 50px;
+}
+
+li.nav-items a {
+    color: black;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.block0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block0 p {
+    color: #666;
+    font-family: Montserrat, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+    margin-left: 65px; margin-right: 65px;
+}
+
+.block0 h1 {
+    color: #25202F;
+    font-family: Montserrat, serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-left: 65px; margin-right: 65px;
+}
+
+.contact {
+    border-radius: 100px;
+    background: #8643DC;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 65px; margin-right: 65px;
+}
+
+.block0 a {
+    color: white;
+}
+
+.block1 {
+    margin-top: 100px;
+    margin-left: 65px; margin-right: 65px;
+}
+.top h4 {
+    color: #8643DC;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top h1 {
+    color: #25202F;
+    font-family: Montserrat, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-cart {
+    display: flex;
+    align-items: center;
+}
+
+.top-cart p {
+    margin-left: 20px;
+    color: #25202F;
+    font-family: Montserrat, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom-cart p {
+    color: #47444E;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 228.571% */
+}
+
+.block2 {
+    margin-top: 200px;
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
+    height: 80vh;
+}
+
+.top-block2 {
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.top-block2 h4 {
+    padding-top: 40px;
+    color: #8643DC;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-block2 h1 {
+    color: #25202F;
+    font-family: Montserrat, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.bottom-block2 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-block3 h4 {
+    padding-top: 40px;
+    color: #8643DC;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-block3 h1 {
+    color: #25202F;
+    font-family: Montserrat, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.top-block3 {
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.bottom-block3 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    padding: 4rem 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
